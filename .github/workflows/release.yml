@@ -1,0 +1,42 @@
+name: Compilar y Publicar Resource Pack
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Publicar Release pack-latest
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Empaquetar Resource Pack
+        run: |
+          zip -r Morvak-Pack.zip assets pack.mcmeta pack.png
+          sha1sum Morvak-Pack.zip | awk '{print $1}' > Morvak-Pack.zip.sha1
+          echo "SHA1: $(cat Morvak-Pack.zip.sha1)"
+
+      - name: Publicar Release pack-latest
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: pack-latest
+          name: "Morvak Official Resource Pack"
+          body: |
+            ## Morvak Official Resource Pack (Purpur 1.21.1 / Vanilla 100%)
+            * Paquete oficial de texturas y modelos nórdicos para Morvak (morvak.net).
+            * Compatible al 100% con clientes **Minecraft Vanilla**.
+            * Hash SHA-1: `$(cat Morvak-Pack.zip.sha1)`
+          draft: false
+          prerelease: false
+          files: |
+            Morvak-Pack.zip
+            Morvak-Pack.zip.sha1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
