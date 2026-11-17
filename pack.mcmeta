@@ -1,9 +1,10 @@
 {
   "pack": {
-    "pack_format": 75,
-    "min_format": [34, 0],
-    "max_format": [75, 0],
-    "supported_formats": [34, 75],
+    "pack_format": 34,
+    "supported_formats": {
+      "min_inclusive": 34,
+      "max_inclusive": 75
+    },
     "description": "§3§lMORVAK §8» §bFantasía Nórdica §7(v1.0.0)"
   }
 }
