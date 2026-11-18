@@ -1,0 +1,258 @@
+{
+  "credit": "Morvak Official - Altar Runico del Asentamiento (10x10)",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle": "minecraft:item/custom/protection_stones/altar_stone",
+    "stone": "minecraft:item/custom/protection_stones/altar_stone",
+    "trim": "minecraft:item/custom/protection_stones/altar_trim",
+    "cloth": "minecraft:item/custom/protection_stones/altar_cloth",
+    "sapphire": "minecraft:item/custom/protection_stones/altar_sapphire"
+  },
+  "elements": [
+    {
+      "name": "base_inferior",
+      "from": [ 1, 0, 1 ],
+      "to": [ 15, 2, 15 ],
+      "faces": {
+        "north": { "uv": [ 1, 14, 15, 16 ], "texture": "#stone" },
+        "east":  { "uv": [ 1, 14, 15, 16 ], "texture": "#stone" },
+        "south": { "uv": [ 1, 14, 15, 16 ], "texture": "#stone" },
+        "west":  { "uv": [ 1, 14, 15, 16 ], "texture": "#stone" },
+        "up":    { "uv": [ 1, 1, 15, 15 ],   "texture": "#stone" },
+        "down":  { "uv": [ 1, 1, 15, 15 ],   "texture": "#trim" }
+      }
+    },
+    {
+      "name": "escalon_base_2",
+      "from": [ 3, 2, 3 ],
+      "to": [ 13, 4, 13 ],
+      "faces": {
+        "north": { "uv": [ 3, 12, 13, 14 ], "texture": "#trim" },
+        "east":  { "uv": [ 3, 12, 13, 14 ], "texture": "#trim" },
+        "south": { "uv": [ 3, 12, 13, 14 ], "texture": "#trim" },
+        "west":  { "uv": [ 3, 12, 13, 14 ], "texture": "#trim" },
+        "up":    { "uv": [ 3, 3, 13, 13 ],   "texture": "#trim" },
+        "down":  { "uv": [ 3, 3, 13, 13 ],   "texture": "#trim" }
+      }
+    },
+    {
+      "name": "pilar_central_estrecho",
+      "from": [ 6, 4, 6 ],
+      "to": [ 10, 9, 10 ],
+      "faces": {
+        "north": { "uv": [ 6, 5, 10, 10 ], "texture": "#stone" },
+        "east":  { "uv": [ 6, 5, 10, 10 ], "texture": "#stone" },
+        "south": { "uv": [ 6, 5, 10, 10 ], "texture": "#stone" },
+        "west":  { "uv": [ 6, 5, 10, 10 ], "texture": "#stone" }
+      }
+    },
+    {
+      "name": "anillo_pilar",
+      "from": [ 5.5, 6, 5.5 ],
+      "to": [ 10.5, 7.5, 10.5 ],
+      "faces": {
+        "north": { "uv": [ 5, 6, 11, 8 ], "texture": "#sapphire" },
+        "east":  { "uv": [ 5, 6, 11, 8 ], "texture": "#sapphire" },
+        "south": { "uv": [ 5, 6, 11, 8 ], "texture": "#sapphire" },
+        "west":  { "uv": [ 5, 6, 11, 8 ], "texture": "#sapphire" },
+        "up":    { "uv": [ 5, 5, 11, 11 ], "texture": "#sapphire" },
+        "down":  { "uv": [ 5, 5, 11, 11 ], "texture": "#sapphire" }
+      }
+    },
+    {
+      "name": "capitel_mesa",
+      "from": [ 4, 9, 4 ],
+      "to": [ 12, 10.5, 12 ],
+      "faces": {
+        "north": { "uv": [ 4, 10, 12, 12 ], "texture": "#trim" },
+        "east":  { "uv": [ 4, 10, 12, 12 ], "texture": "#trim" },
+        "south": { "uv": [ 4, 10, 12, 12 ], "texture": "#trim" },
+        "west":  { "uv": [ 4, 10, 12, 12 ], "texture": "#trim" },
+        "up":    { "uv": [ 4, 4, 12, 12 ],   "texture": "#trim" },
+        "down":  { "uv": [ 4, 4, 12, 12 ],   "texture": "#trim" }
+      }
+    },
+    {
+      "name": "mesa_superior",
+      "from": [ 1, 10.5, 1 ],
+      "to": [ 15, 13, 15 ],
+      "faces": {
+        "north": { "uv": [ 1, 11, 15, 13 ], "texture": "#stone" },
+        "east":  { "uv": [ 1, 11, 15, 13 ], "texture": "#stone" },
+        "south": { "uv": [ 1, 11, 15, 13 ], "texture": "#stone" },
+        "west":  { "uv": [ 1, 11, 15, 13 ], "texture": "#stone" },
+        "up":    { "uv": [ 1, 1, 15, 15 ],   "texture": "#stone" },
+        "down":  { "uv": [ 1, 1, 15, 15 ],   "texture": "#trim" }
+      }
+    },
+    {
+      "name": "pano_ceremonial_central",
+      "from": [ 3, 13, 3 ],
+      "to": [ 13, 13.2, 13 ],
+      "faces": {
+        "north": { "uv": [ 3, 13, 13, 14 ], "texture": "#cloth" },
+        "east":  { "uv": [ 3, 13, 13, 14 ], "texture": "#cloth" },
+        "south": { "uv": [ 3, 13, 13, 14 ], "texture": "#cloth" },
+        "west":  { "uv": [ 3, 13, 13, 14 ], "texture": "#cloth" },
+        "up":    { "uv": [ 3, 3, 13, 13 ],   "texture": "#cloth" }
+      }
+    },
+    {
+      "name": "pilar_esquina_nw",
+      "from": [ 1, 13, 1 ],
+      "to": [ 4.5, 15.5, 4.5 ],
+      "faces": {
+        "north": { "uv": [ 1, 1, 4, 4 ], "texture": "#trim" },
+        "east":  { "uv": [ 1, 1, 4, 4 ], "texture": "#trim" },
+        "south": { "uv": [ 1, 1, 4, 4 ], "texture": "#trim" },
+        "west":  { "uv": [ 1, 1, 4, 4 ], "texture": "#trim" },
+        "up":    { "uv": [ 1, 1, 4, 4 ], "texture": "#trim" }
+      }
+    },
+    {
+      "name": "pilar_esquina_ne",
+      "from": [ 11.5, 13, 1 ],
+      "to": [ 15, 15.5, 4.5 ],
+      "faces": {
+        "north": { "uv": [ 12, 1, 15, 4 ], "texture": "#trim" },
+        "east":  { "uv": [ 12, 1, 15, 4 ], "texture": "#trim" },
+        "south": { "uv": [ 12, 1, 15, 4 ], "texture": "#trim" },
+        "west":  { "uv": [ 12, 1, 15, 4 ], "texture": "#trim" },
+        "up":    { "uv": [ 12, 1, 15, 4 ], "texture": "#trim" }
+      }
+    },
+    {
+      "name": "pilar_esquina_sw",
+      "from": [ 1, 13, 11.5 ],
+      "to": [ 4.5, 15.5, 15 ],
+      "faces": {
+        "north": { "uv": [ 1, 12, 4, 15 ], "texture": "#trim" },
+        "east":  { "uv": [ 1, 12, 4, 15 ], "texture": "#trim" },
+        "south": { "uv": [ 1, 12, 4, 15 ], "texture": "#trim" },
+        "west":  { "uv": [ 1, 12, 4, 15 ], "texture": "#trim" },
+        "up":    { "uv": [ 1, 12, 4, 15 ], "texture": "#trim" }
+      }
+    },
+    {
+      "name": "pilar_esquina_se",
+      "from": [ 11.5, 13, 11.5 ],
+      "to": [ 15, 15.5, 15 ],
+      "faces": {
+        "north": { "uv": [ 12, 12, 15, 15 ], "texture": "#trim" },
+        "east":  { "uv": [ 12, 12, 15, 15 ], "texture": "#trim" },
+        "south": { "uv": [ 12, 12, 15, 15 ], "texture": "#trim" },
+        "west":  { "uv": [ 12, 12, 15, 15 ], "texture": "#trim" },
+        "up":    { "uv": [ 12, 12, 15, 15 ], "texture": "#trim" }
+      }
+    },
+    {
+      "name": "cristal_esquina_nw",
+      "from": [ 2, 15.5, 2 ],
+      "to": [ 3.5, 17, 3.5 ],
+      "faces": {
+        "north": { "uv": [ 2, 2, 4, 4 ], "texture": "#sapphire" },
+        "east":  { "uv": [ 2, 2, 4, 4 ], "texture": "#sapphire" },
+        "south": { "uv": [ 2, 2, 4, 4 ], "texture": "#sapphire" },
+        "west":  { "uv": [ 2, 2, 4, 4 ], "texture": "#sapphire" },
+        "up":    { "uv": [ 2, 2, 4, 4 ], "texture": "#sapphire" }
+      }
+    },
+    {
+      "name": "cristal_esquina_ne",
+      "from": [ 12.5, 15.5, 2 ],
+      "to": [ 14, 17, 3.5 ],
+      "faces": {
+        "north": { "uv": [ 12, 2, 14, 4 ], "texture": "#sapphire" },
+        "east":  { "uv": [ 12, 2, 14, 4 ], "texture": "#sapphire" },
+        "south": { "uv": [ 12, 2, 14, 4 ], "texture": "#sapphire" },
+        "west":  { "uv": [ 12, 2, 14, 4 ], "texture": "#sapphire" },
+        "up":    { "uv": [ 12, 2, 14, 4 ], "texture": "#sapphire" }
+      }
+    },
+    {
+      "name": "cristal_esquina_sw",
+      "from": [ 2, 15.5, 12.5 ],
+      "to": [ 3.5, 17, 14 ],
+      "faces": {
+        "north": { "uv": [ 2, 12, 4, 14 ], "texture": "#sapphire" },
+        "east":  { "uv": [ 2, 12, 4, 14 ], "texture": "#sapphire" },
+        "south": { "uv": [ 2, 12, 4, 14 ], "texture": "#sapphire" },
+        "west":  { "uv": [ 2, 12, 4, 14 ], "texture": "#sapphire" },
+        "up":    { "uv": [ 2, 12, 4, 14 ], "texture": "#sapphire" }
+      }
+    },
+    {
+      "name": "cristal_esquina_se",
+      "from": [ 12.5, 15.5, 12.5 ],
+      "to": [ 14, 17, 14 ],
+      "faces": {
+        "north": { "uv": [ 12, 12, 14, 14 ], "texture": "#sapphire" },
+        "east":  { "uv": [ 12, 12, 14, 14 ], "texture": "#sapphire" },
+        "south": { "uv": [ 12, 12, 14, 14 ], "texture": "#sapphire" },
+        "west":  { "uv": [ 12, 12, 14, 14 ], "texture": "#sapphire" },
+        "up":    { "uv": [ 12, 12, 14, 14 ], "texture": "#sapphire" }
+      }
+    },
+    {
+      "name": "reliquia_zafiro_central",
+      "from": [ 5.5, 13.2, 5.5 ],
+      "to": [ 10.5, 15, 10.5 ],
+      "faces": {
+        "north": { "uv": [ 5, 5, 11, 11 ], "texture": "#sapphire" },
+        "east":  { "uv": [ 5, 5, 11, 11 ], "texture": "#sapphire" },
+        "south": { "uv": [ 5, 5, 11, 11 ], "texture": "#sapphire" },
+        "west":  { "uv": [ 5, 5, 11, 11 ], "texture": "#sapphire" },
+        "up":    { "uv": [ 5, 5, 11, 11 ], "texture": "#sapphire" }
+      }
+    },
+    {
+      "name": "nucleo_luz_zafiro",
+      "from": [ 6.5, 15, 6.5 ],
+      "to": [ 9.5, 15.8, 9.5 ],
+      "faces": {
+        "north": { "uv": [ 6, 6, 10, 10 ], "texture": "#sapphire" },
+        "east":  { "uv": [ 6, 6, 10, 10 ], "texture": "#sapphire" },
+        "south": { "uv": [ 6, 6, 10, 10 ], "texture": "#sapphire" },
+        "west":  { "uv": [ 6, 6, 10, 10 ], "texture": "#sapphire" },
+        "up":    { "uv": [ 6, 6, 10, 10 ], "texture": "#sapphire" }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [ 30, 225, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.625, 0.625, 0.625 ]
+    },
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 3, 0 ],
+      "scale": [ 0.35, 0.35, 0.35 ]
+    },
+    "fixed": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 75, 45, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 75, 45, 0 ],
+      "translation": [ 0, 2.5, 0 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 45, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, 225, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.4, 0.4, 0.4 ]
+    }
+  }
+}

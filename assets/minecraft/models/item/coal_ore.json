@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/coal_ore",
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 3101 },
+      "model": "minecraft:item/custom/ps_altar_coal"
+    }
+  ]
+}
