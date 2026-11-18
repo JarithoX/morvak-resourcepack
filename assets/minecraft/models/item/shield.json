@@ -1,0 +1,48 @@
+{
+  "parent": "builtin/entity",
+  "gui_light": "front",
+  "textures": {
+    "particle": "minecraft:item/shield"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 0, 90, -35 ],
+      "translation": [ 2.5, -7, 8.5 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 0, -90, 35 ],
+      "translation": [ -2.5, -7, 8.5 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 180, -5 ],
+      "translation": [ -2, 2, 6 ],
+      "scale": [ 1.25, 1.25, 1.25 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, 180, 5 ],
+      "translation": [ 2, 2, 6 ],
+      "scale": [ 1.25, 1.25, 1.25 ]
+    },
+    "gui": {
+      "rotation": [ 15, -25, -5 ],
+      "translation": [ 2, 3, 0 ],
+      "scale": [ 0.65, 0.65, 0.65 ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": { "blocking": 1 },
+      "model": "minecraft:item/shield_blocking"
+    },
+    {
+      "predicate": { "custom_model_data": 3001 },
+      "model": "minecraft:item/custom/thane_bulwark"
+    },
+    {
+      "predicate": { "custom_model_data": 3001, "blocking": 1 },
+      "model": "minecraft:item/custom/thane_bulwark_blocking"
+    }
+  ]
+}
